@@ -1,0 +1,255 @@
+.mobile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mobile__banner {
+    background-color: #bd3381;
+    overflow: hidden;
+    padding: 0 5px;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #bd3381, #ee583f);
+    height: 100%;
+    pointer-events: none;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mobile__banner__text {
+    margin-left: 1em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.mobile__banner__text p:last-child {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    flex-direction: row;
+}
+
+
+.mobile__banner__button button {
+    margin-right: 1.2em;
+    color: #fff;
+    background: 0 0;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.mobile__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mobile__header>div>img {
+    width: 15px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    margin-top: 18px;
+}
+
+.mobile__header>span>div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 10px;
+    padding: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #00376b;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.mobile__header>span>div span>img {
+    width: 8px;
+    margin-left: 6px;
+}
+
+
+.mobile__header__logo {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 1px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile__header__logo img {
+    height: 51px;
+    width: 175px;
+}
+
+.main_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_body>button {
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    background-color: #0095f6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+.main_body>button:first-child span {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.login span {
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.main_body>button>img {
+    width: 18px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+
+}
+
+.mobile__divider {
+    color: gray;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 10px 18px;
+    text-transform: uppercase;
+}
+
+.mobile__divider span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile__divider span::before {
+    content: "";
+    flex: 1 ;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 12px;
+}
+
+.mobile__divider span::after {
+    content: "";
+    flex: 1 ;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    margin: auto;
+    margin-left: 12px;
+    margin-right: 5%;
+}
+
+.main_body input::placeholder {
+    color: #8e8e8e;
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.main_body input:focus {
+    outline: 1px solid rgb(189, 189, 189);
+
+}
+
+.main_body input {
+    font-size: 16px;
+    padding: 9px 0 7px 8px;
+    line-height: 18px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-bottom: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgba(245, 245, 245, 0.377);
+    border: none;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 3px;
+}
+
+.forgot__pass{
+    height: 40px;
+    position: relative;
+    
+}
+
+.forgot__pass a{
+    top: 10px;
+    right: 40px;
+    text-align: right;
+    position: absolute;
+}
+
+.main_body a {
+    color: rgba(0, 119, 231, 0.795);
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.main_body div:nth-child(7) {
+    color: rgba(61, 57, 57, 0.671);
+    font-weight: 200;
+    margin-top: 8px;
+    margin-left: 2.5em;
+}
+
+.main_body div a {
+    margin: 0;
+}
+
+.signup {
+    font-weight: 500;
+}
